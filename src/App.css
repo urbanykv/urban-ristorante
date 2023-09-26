@@ -1,38 +1,90 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  background-image: url(../public/assets/banner.png);
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.header h1{
+  color: #f3f3f3;
+  text-transform: uppercase;
+  text-shadow: 0px -4px 5px #daa520;
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header p{
+  width: 40%;
+  font-size: 20px;
+  color: #daa520;
+}
+
+.nav-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 50px 0px;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  gap: 15px;
+  transition: 0.5s ease;
+}
+
+.btns:hover{
+  background-color: #daa520;
+}
+
+.btns img{
+  width: 30px;
+}
+
+#buscaMenu{
+  background-image: url(../public/assets/lupa.png);
+  background-position: left 12px center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  width: 60%;
+  height: 50px;
+  padding: 5px 50px;
+  border: 3px solid #c7c7c7;
+  border-radius: 15px;
+}
+
+.listagem-cardapio h2{
+  margin: 30px;
+  font-size: 30px;
+}
+
+.cardapio{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 0px 50px 70px 50px;
 }
