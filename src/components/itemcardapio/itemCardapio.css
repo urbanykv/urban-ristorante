@@ -64,3 +64,159 @@
     justify-self: flex-end;
     font-weight: bold;
 }
+
+@media (max-width: 1064px) {
+    .item-cardapio{
+        width: 280px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid #daa520;
+    }
+    
+    .item-cardapio:last-child{
+        width: 610px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid #daa520;
+    }
+    
+    .item-cardapio:last-child img{
+        width: 610px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 0px 0px 15px 15px;
+    }
+    
+    .item-cardapio:nth-last-child(2){
+        width: 280px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid #daa520;
+    }
+    
+    .item-cardapio:nth-last-child(2) img{
+        width: 280px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .item-cardapio img{
+        width: 280px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 0px 0px 15px 15px;
+    }
+    
+    .info-produto{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #nome{
+        align-self: flex-start;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    #categoria{
+        align-self: flex-start;
+        color: #daa520;
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+    
+    #desc{
+        align-self: flex-start;
+        text-align: left;
+        height: 150px;
+    }
+    
+    #preco{
+        align-self: flex-end;
+        justify-self: flex-end;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 732px) {
+    .item-cardapio{
+        width: 260px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid #daa520;
+    }
+    
+    .item-cardapio:nth-last-child(-n + 2){
+        width: 260px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid #daa520;
+    }
+    
+    .item-cardapio:nth-last-child(-n + 2) img{
+        width: 260px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 0px 0px 15px 15px;
+    }
+    
+
+    .item-cardapio img{
+        width: 260px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 0px 0px 15px 15px;
+    }
+    
+    .info-produto{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #nome{
+        align-self: flex-start;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    #categoria{
+        align-self: flex-start;
+        color: #daa520;
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+    
+    #desc{
+        align-self: flex-start;
+        text-align: left;
+        height: 150px;
+    }
+    
+    #preco{
+        align-self: flex-end;
+        justify-self: flex-end;
+        font-weight: bold;
+    }
+}
