@@ -21,14 +21,21 @@
 .header h1{
   color: #f3f3f3;
   text-transform: uppercase;
-  text-shadow: 0px -4px 5px #daa520;
+  text-shadow: 0px 3px 1px #da6a20;
   font-size: 50px;
 }
 
 .header p{
   width: 40%;
   font-size: 20px;
-  color: #daa520;
+  color: rgb(255, 72, 0);
+}
+
+.busca-e-filtragem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-btn{
@@ -113,14 +120,14 @@
   .header h1{
     color: #f3f3f3;
     text-transform: uppercase;
-    text-shadow: 0px -4px 5px #daa520;
+    text-shadow: 0px 3px 1px #da6a20;
     font-size: 40px;
   }
   
   .header p{
     width: 60%;
     font-size: 18px;
-    color: #daa520;
+    color: rgb(255, 72, 0);
   }
   
   .nav-btn{
@@ -128,7 +135,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 100%;
+    width: 80%;
     flex-wrap: wrap;
     margin: 50px 0px;
   }
@@ -207,14 +214,14 @@
   .header h1{
     color: #f3f3f3;
     text-transform: uppercase;
-    text-shadow: 0px -4px 5px #daa520;
+    text-shadow: 0px 3px 1px #da6a20;
     font-size: 35px;
   }
   
   .header p{
     width: 75%;
     font-size: 16px;
-    color: #daa520;
+    color: rgb(255, 72, 0);
   }
   
   .nav-btn{
@@ -222,7 +229,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 100%;
+    width: 90%;
     flex-wrap: wrap;
     margin: 50px 0px;
   }
@@ -254,7 +261,7 @@
     background-position: left 12px center;
     background-repeat: no-repeat;
     background-size: 30px;
-    width: 60%;
+    width: 50%;
     height: 50px;
     padding: 5px 50px;
     border: 3px solid #c7c7c7;
