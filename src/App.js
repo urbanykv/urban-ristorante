@@ -20,9 +20,13 @@ function App() {
 
   const buscarItem = text => {
     setTextoBusca(text)
-    setItensCardapio(produtos.filter( produto => 
-      produto.nome.toLowerCase().includes(text.toLowerCase())
-      ))
+    if(text === ""){
+      setItensCardapio(entradas)
+    }else if(text !== ""){
+      setItensCardapio(produtos.filter( produto => 
+        produto.nome.toLowerCase().includes(text.toLowerCase())
+        ))
+    }
   }
 
   return (
